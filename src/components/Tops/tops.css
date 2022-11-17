@@ -1,0 +1,31 @@
+.cImage{
+    position: relative;
+}
+.cImage a {
+    text-decoration: none;
+    color: black;
+}
+.cImage a img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+/* .cImgDesc{
+    position: absolute;
+    z-index: 2;
+} */
+.cImgTitle{
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px black;
+}
+.cImgP{
+    letter-spacing: 1.3px;
+    color: black;
+}
+.cImage a img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}

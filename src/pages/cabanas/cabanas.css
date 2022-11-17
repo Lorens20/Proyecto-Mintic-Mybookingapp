@@ -1,0 +1,13 @@
+.cabanasContainer{
+    padding: 50px 10px;
+}
+.cabanasRow{
+    display: flex;
+    padding: 0 50px;
+}
+.cabanasRow .cabanasCol:first-child{
+    flex: 1;
+}
+.cabanasRow .cabanasCol:last-child{
+    flex: 3;
+}

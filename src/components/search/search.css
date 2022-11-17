@@ -1,0 +1,55 @@
+.searchItem{
+    margin-bottom: 15px;
+}
+.searchCabanas{
+    position: sticky;
+    background-color: #118a95;
+    height: max-content;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+.searchItem{
+    display: flex;
+    flex-direction: column;
+}
+.searchItem label{
+    color:#ffffff;
+    letter-spacing: 1.3px;
+}
+.searchOptionItem{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+.searchItem input{
+    height: 40px;
+    padding: 0 20px;
+    color: black;
+}
+.searchItem label:nth-child(2){
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.searchItem .btnSearch{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+    background-color: #48717f;
+    color: #ffffff;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s;
+}
+
+.searchItem .btnSearch:hover{
+    background-color:#000000 ;
+    
+
+}
