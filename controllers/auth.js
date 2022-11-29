@@ -16,7 +16,7 @@ export const register = async (req, res, next) => {
         }) 
 
         await newUser.save();
-        res.status(200).send("Usuario creado con extio!");
+        res.status(200).send("Usuario creado con exito!");
     } catch(err) {
         next(err)
     }
